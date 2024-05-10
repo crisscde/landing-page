@@ -32,7 +32,7 @@ body {
 
 /* Header styles */
 .header {
-	height: 80vh;
+	height: 85%;
 	background-color: #1f2937;
 	color: #f9faf8;
 	font-weight: 800;
@@ -64,7 +64,7 @@ body {
 .hero {
 	display: flex;
 	align-items: center;
-	margin: 50px auto 0px;
+	margin: 80px auto 0px;
 	width: 72%;
 	gap: 50px;
 }
@@ -108,34 +108,32 @@ body {
 /*  Main styles */
 
 .main {
+	margin-top: 40px;
 }
 .main__text {
+	text-align: center;
+	font-weight: 800;
+	font-size: 36px;
 }
 .main__ilustrations {
+	display: flex;
+	width: 50%;
+	margin: auto;
+	text-align: center;
+	text-wrap: pretty;
 }
-.main__blocks {
-}
+
 .main__img {
+	width: 150px;
+	height: 150px;
+	border: 5px solid #3882f6;
+	margin: auto;
+	border-radius: 10%;
 }
-.main__text {
-}
-.main__blocks {
-}
-.main__img {
-}
-.main__text {
-}
-.main__blocks {
-}
-.main__img {
-}
-.main__text {
-}
-.main__blocks {
-}
-.main__img {
-}
-.main__text {
+
+.main__block-text {
+	font-weight: 400;
+	color: #6b6d6e;
 }
 
 /* Quote styles */
