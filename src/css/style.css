@@ -1,0 +1,162 @@
+@font-face {
+	font-family: "Montserrat";
+	src: url("/src/fonts/montserrat.woff2") format("woff2"),
+		url("/src/fonts/montserrat.woff") format("woff"),
+		url("/src/fonts/montserrat.ttf") format("truetype");
+	font-display: "swap";
+	font-weight: 100 900;
+}
+
+@font-face {
+	font-family: "Montserrat";
+	src: url("/src/fonts/montserrat-italic.woff2") format("woff2"),
+		url("/src/fonts/montserrat-italic.woff") format("woff"),
+		url("/src/fonts/montserrat-italic.ttf") format("truetype");
+	font-display: "swap";
+	font-weight: 100 900;
+	font-style: italic;
+}
+
+html,
+body {
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Montserrat", sans-serif;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+/* Header styles */
+.header {
+	height: 80vh;
+	background-color: #1f2937;
+	color: #f9faf8;
+	font-weight: 800;
+}
+
+.header__nav {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.header__logo {
+	color: #f9faf8;
+	font-size: 22px;
+}
+
+.header__links {
+	display: flex;
+	gap: 20px;
+}
+
+.header__items {
+	list-style-type: none;
+	font-weight: 300;
+	color: #e5e7eb;
+	font-size: 16px;
+}
+
+.hero {
+	display: flex;
+	align-items: center;
+	margin: 50px auto 0px;
+	width: 72%;
+	gap: 50px;
+}
+
+.hero__container {
+	width: 50%;
+}
+
+.hero__title {
+	font-size: 46px;
+	margin: 0;
+}
+
+.hero__paragraph {
+	color: #e5e7eb;
+	font-weight: 300;
+	font-size: 18px;
+	text-wrap: pretty;
+}
+
+.hero__button {
+	background-color: #3882f6;
+	color: #f9faf8;
+	font-weight: 600;
+	padding: 6px 30px;
+	border-radius: 5px;
+}
+
+.hero__img {
+	background-color: #6d747d;
+	width: 55%;
+	height: 250px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-transform: lowercase;
+	font-weight: 400;
+	color: #f9faf8;
+}
+
+/*  Main styles */
+
+.main {
+}
+.main__text {
+}
+.main__ilustrations {
+}
+.main__blocks {
+}
+.main__img {
+}
+.main__text {
+}
+.main__blocks {
+}
+.main__img {
+}
+.main__text {
+}
+.main__blocks {
+}
+.main__img {
+}
+.main__text {
+}
+.main__blocks {
+}
+.main__img {
+}
+.main__text {
+}
+
+/* Quote styles */
+.quote {
+}
+.quote__text {
+}
+.quote__author {
+}
+.up {
+}
+.up__title {
+}
+.up__paragraph {
+}
+.up__button {
+}
+
+/* Footer styles */
+
+.footer {
+}
+.footer__text {
+}
